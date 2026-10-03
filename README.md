@@ -1,27 +1,27 @@
-# Final Project
+# Simple Interest Calculator
 
-## Project Name
+A simple bash script that calculates simple interest given principal, annual rate of interest, and time period in years.
 
-GitHub Final Project
+## Input:
+* **p**, principal amount
+* **t**, time period in years
+* **r**, annual rate of interest
 
-## Description
-
-This project demonstrates fundamental Git and GitHub skills through a combination of GitHub UI tasks and Git CLI tasks.
-
-The project includes documentation files, an open-source license, a code of conduct, contribution guidelines, and a Bash script for calculating simple interest.
-
-## Project Components
-
-* README.md — Project documentation and details
-* LICENSE — Apache 2.0 open-source license
-* CODE_OF_CONDUCT — Community standards and guidelines
-* CONTRIBUTING.md — Contribution guidelines
-* simple-interest.sh — Bash script for calculating simple interest
-
-## Author
-
-Student Final Project
+## Output:
+* **simple interest** = p * t * r
 
 ## Purpose
+This project is designed to provide a lightweight, terminal-based utility for users to quickly compute loan or investment interest growth without needing heavy external accounting software.
 
-The purpose of this project is to demonstrate practical knowledge of GitHub repository management, open-source project documentation, and basic Bash scripting.
+## Usage
+Run the script in your terminal by passing the principal, time, and rate variables:
+```bash
+bash simple-interest.sh
+```
+
+## Example Calculation
+* **Principal (p):** $1,000
+* **Time in Years (t):** 5 years
+* **Annual Interest Rate (r):** 5% (0.05)
+
+**Calculation:** $1000 * 5 * 0.05 = **$250** Total Interest
